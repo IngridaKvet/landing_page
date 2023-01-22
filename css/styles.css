@@ -64,6 +64,7 @@ body{
 }
 
 img{
+    display: flex;
     border-radius: 20px;
 }
 
@@ -72,7 +73,7 @@ p{
     font-weight: 300;
 }
 
-button{
+.firstbutton{
     color:#f9faf8;
     background: #3882f6;
     border-color: #3882f6;
@@ -131,7 +132,57 @@ button{
     display: flex;
     justify-content: flex-end;
     padding-right: 70px;
+    font-size: 30px;
 }
 
 /*call to action*/
+.calltoaction{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    max-width: 1000px;
+    padding: 20px 60px;
+    border-radius: 20px;
+    margin: 60px auto;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+.calltextcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+h2,p{
+    margin: 5px 0;
+}
+
+.secondbutton{
+    color:#f9faf8;
+    background: #3882f6;
+    border-color: #f9faf8;
+    border-width: 1x;
+    border-radius: 20px;
+    width: 135px;
+    height: 40px; 
+    border-style: solid;
+    font-family: Ubuntu, Oxygen;
+    font-size: 18px;
+}
+
+/*footer */
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+        text-align: center;
+        padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+
 
