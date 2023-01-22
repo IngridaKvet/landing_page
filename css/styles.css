@@ -85,3 +85,28 @@ button{
     font-size: 18px;
     margin-top: 5px;
 }
+
+/*information section*/
+.information{
+    display: flex;
+    padding: 40px 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photossection{
+    display: flex;
+    flex: 1 1 0;
+    width: 0;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.caption{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*quote*/
