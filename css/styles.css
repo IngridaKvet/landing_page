@@ -1,6 +1,5 @@
 body{
     font-family: Ubuntu;
-    padding: auto;
 }
 
 .contentcontainer{
@@ -88,6 +87,8 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .photossection{
