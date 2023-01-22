@@ -1,0 +1,87 @@
+body{
+    font-family: Ubuntu;
+}
+
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+}
+/*header*/
+.header{
+    display: flex;
+
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px 350px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.headerlinks{
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    gap: 50px;
+
+}
+
+/*hero*/
+.hero{
+    display: flex; 
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 40px 350px;
+    padding-bottom: 60px;
+    gap: 150px;
+}
+
+.herotext{
+    display: flex; 
+    flex: 1 1 0;
+    width: 0;
+    flex-direction: column;
+    min-width: 309px;
+    max-width: 700px;
+
+}
+
+.herophoto{
+    display: flex; 
+    flex: 1 1 0;
+    width: 0;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#heromain{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img{
+    border-radius: 20px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+button{
+    color:#f9faf8;
+    background: #3882f6;
+    border-color: #3882f6;
+    border-width: 10x;
+    border-radius: 20px;
+    width: 135px;
+    height: 40px; 
+    border-style: solid;
+    font-family: Ubuntu, Oxygen;
+    font-size: 18px;
+    margin-top: 5px;
+}
